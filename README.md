@@ -23,9 +23,21 @@ A: 서로 협업을 위해서 쓸모없는 파일 (ex. log, IDE 설정) 들을 g
 
 언제나 친절하게 답변해줍니다.
 
+## 과제 제출 현황
 
+주차                      | 고산  | 김동근 | 김재인 | 김태형 | 이교원 | 장유리 | 김정미 | 조광수 |
+------------------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+[1주차][week1-assginment] |      |   O  |      |      |      |   O  |      |      |
+2주차                     |      |   O  |      |      |      |   O  |      |      |
+3주차                     |      |   O  |      |      |      |   O  |      |      |
+4주차                     |      |   O  |      |      |      |   O  |      |      |
+5주차                     |      |   O  |      |      |      |   O  |      |      |
+6주차                     |      |   O  |      |      |      |   O  |      |      |
+7주차                     |      |   O  |      |      |      |   O  |      |      |
+8주차                     |      |   O  |      |      |      |   O  |      |      |
 
 [reference-opentutorials-hellgit]: https://opentutorials.org/course/2708
 [reference-newbie-github]: https://nolboo.kim/blog/2013/10/06/github-for-beginner/
 [reference-git-command-reference]: http://noritersand.tistory.com/86
 [google]: https://www.google.co.kr/
+[week1-assginment]: https://github.com/extJo/ApptiveStudy/tree/master/week1/assignment
