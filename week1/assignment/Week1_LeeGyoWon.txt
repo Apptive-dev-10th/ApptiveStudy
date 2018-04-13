@@ -1,4 +1,5 @@
-﻿Quiz 1-1 short,int,long의 차이점
+﻿
+Quiz 1-1 short,int,long의 차이점
 
 	- short : -32,768 ~ 32,767 까지의 범위를 갖는다. 2byte(16bit)크기를 가진다.
 	- int : -2147483648 ~ 2147483647 까지의 범위를 가진다. 4byte(32bit)크기를 가진다.
