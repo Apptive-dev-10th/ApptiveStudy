@@ -10,6 +10,7 @@
 * [생활코딩 - 지옥에서 온 Git][reference-opentutorials-hellgit]
 * [Nolboo님 블로그 - 완전 초보를 위한 깃허브][reference-newbie-github]
 * [놀이터흙이제맛님의 블로그 - Git: 주요명령어 정리][reference-git-command-reference]
+* [git 초보를 위한 풀리퀘스트(pull request) 방법][reference-PR-newbie]
 
 ## .gitignore 파일 생성 사이트
 https://www.gitignore.io/
@@ -27,7 +28,7 @@ A: 서로 협업을 위해서 쓸모없는 파일 (ex. log, IDE 설정) 들을 g
 
 주차                      |  과제 기한   | 고산  | 김동근 | 김재인 | 김태형 | 이교원 | 장유리 | 김정미 | 조광수 |
 ------------------------ | ---------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-[1주차][week1-assginment] | 4/7 ~ 4/13 |  O  |   O  |      |   O  |      |   O  |      |      |
+[1주차][week1-assginment] | 4/7 ~ 4/13 |  O  |   O  |   O  |   O  |      |   O  |      |      |
 2주차                     |            |     |      |      |      |      |      |      |      |
 3주차                     |            |     |      |      |      |      |      |      |      |
 4주차                     |            |     |      |      |      |      |      |      |      |
@@ -39,5 +40,6 @@ A: 서로 협업을 위해서 쓸모없는 파일 (ex. log, IDE 설정) 들을 g
 [reference-opentutorials-hellgit]: https://opentutorials.org/course/2708
 [reference-newbie-github]: https://nolboo.kim/blog/2013/10/06/github-for-beginner/
 [reference-git-command-reference]: http://noritersand.tistory.com/86
+[reference-PR-newbie]: https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/
 [google]: https://www.google.co.kr/
 [week1-assginment]: https://github.com/extJo/ApptiveStudy/tree/master/week1/assignment
