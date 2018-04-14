@@ -44,6 +44,9 @@ ViewGroup의 Subclass
  * margin, padding
  * gravity, layout_gravity
 
+## dp? sp? px?
+
+http://hashcode.co.kr/questions/44/px-dp-dip-sp%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%B4-%EB%AD%94%EA%B0%80%EC%9A%94
 
 ## 과제 공지
 
