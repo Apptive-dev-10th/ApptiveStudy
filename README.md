@@ -42,7 +42,7 @@ ex) 객제지향이 너무 어려웠어요... 다시한번만 이야기해주실
 주차                      |  과제 기한   | 고산  | 김동근 | 김재인 | 김태형 | 이교원 | 장유리 | 김정미 | 조광수 |
 ------------------------ | ---------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 [1주차][week1-assginment] | 4/7 ~ 4/13 |  2  |   3  |   1  |   1  |   2  |   2  |   1  |   1  |
-2주차                     |            |     |      |      |      |      |      |      |      |
+[2주차][week2-assginment] |4/14 ~ 4/20 |     |      |      |      |      |   O  |      |   O  |
 3주차                     |            |     |      |      |      |      |      |      |      |
 4주차                     |            |     |      |      |      |      |      |      |      |
 5주차                     |            |     |      |      |      |      |      |      |      |
@@ -55,4 +55,5 @@ ex) 객제지향이 너무 어려웠어요... 다시한번만 이야기해주실
 [reference-git-command-reference]: http://noritersand.tistory.com/86
 [reference-PR-newbie]: https://wayhome25.github.io/git/2017/07/08/git-first-pull-request-story/
 [google]: https://www.google.co.kr/
-[week1-assginment]: https://github.com/extJo/ApptiveStudy/tree/master/week1/assignment
+[week1-assginment]: https://github.com/Apptive-dev-10th/ApptiveStudy/tree/master/week1/assignment
+[week2-assginment]: https://github.com/Apptive-dev-10th/ApptiveStudy/tree/master/week2/assignment
