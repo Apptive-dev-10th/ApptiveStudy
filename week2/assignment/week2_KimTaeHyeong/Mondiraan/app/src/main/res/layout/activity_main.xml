@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientatio="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#FF000000" />
+    </LinearLayout>         //검정배경
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:background="#FFFFFF"/>  //(1,1)흰색
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="150dp" /> //(1,2)흰색
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:background="#FF000099"
+        tools:layout_editor_absoluteY="310dp" />  //(1,3)파랑
+
+    <Button
+        android:layout_width="275dp"
+        android:layout_height="300dp"
+        tools:layout_editor_absoluteX="110dp"
+        android:background="#FF0000"
+        tools:layout_editor_absoluteY="0dp" /> //큰빨강
+
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="110dp"
+        tools:layout_editor_absoluteX="110dp"
+        android:background="#FFFFFF"
+        tools:layout_editor_absoluteY="310dp" /> //(2,1)흰색
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        tools:layout_editor_absoluteX="350dp"
+        android:background="#FFFFFF"
+        tools:layout_editor_absoluteY="310dp" /> //(3,2)흰색
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteX="350dp"
+        android:background="#FFFF00"
+        tools:layout_editor_absoluteY="380dp" /> //(노랑)
+
+
+</android.support.constraint.ConstraintLayout>
