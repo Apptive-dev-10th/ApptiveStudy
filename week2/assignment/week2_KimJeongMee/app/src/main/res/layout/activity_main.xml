@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Composition of Red, Blue and Yellow (Piet Mondrian)"
+        android:layout_margin="5dp"
+        android:textColor="#000000"
+        android:gravity="center"/>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="#000000"
+        ></android.support.v7.widget.LinearLayoutCompat>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="100dp"
+        android:background="#ff0000"
+        and></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="300dp"
+        android:layout_marginVertical="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="#ffffff"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="30dp"
+            android:background="#ffffff"
+            ></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:background="#000066">
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginBottom="50dp"
+        android:background="#ffffff"
+        ></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="360dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginBottom="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#ffffff"
+            ></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffff00"></LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="364dp" />
+
+</android.support.constraint.ConstraintLayout>
