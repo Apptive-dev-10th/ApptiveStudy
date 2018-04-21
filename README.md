@@ -42,8 +42,8 @@ ex) 객제지향이 너무 어려웠어요... 다시한번만 이야기해주실
 주차                      |  과제 기한   | 고산  | 김동근 | 김재인 | 김태형 | 이교원 | 장유리 | 김정미 | 조광수 |
 ------------------------ | ---------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 [1주차][week1-assginment] | 4/7 ~ 4/13 |  2  |   3  |   1  |   1  |   2  |   2  |   1  |   1  |
-[2주차][week2-assginment] |4/14 ~ 4/20 |     |   O  |   O  |   O  |      |   O  |   O  |   O  |
-3주차                     |            |     |      |      |      |      |      |      |      |
+[2주차][week2-assginment] |4/14 ~ 4/20 |  1  |   2  |   2  |   1  |   3  |   1  |   1  |   2  |
+[3주차][week3-assginment] |4/22 ~ 4/27 |     |      |      |      |      |      |      |      |
 4주차                     |            |     |      |      |      |      |      |      |      |
 5주차                     |            |     |      |      |      |      |      |      |      |
 6주차                     |            |     |      |      |      |      |      |      |      |
@@ -57,3 +57,4 @@ ex) 객제지향이 너무 어려웠어요... 다시한번만 이야기해주실
 [google]: https://www.google.co.kr/
 [week1-assginment]: https://github.com/Apptive-dev-10th/ApptiveStudy/tree/master/week1/assignment
 [week2-assginment]: https://github.com/Apptive-dev-10th/ApptiveStudy/tree/master/week2/assignment
+[week3-assginment]: https://github.com/Apptive-dev-10th/ApptiveStudy/tree/master/week3/assignment
