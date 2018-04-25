@@ -1,6 +1,6 @@
 # 둘째주 스터디
 
-둘째주 스터디는 Fragment, TabLayout, Listview를 다루겠습니다.
+둘째주 스터디는 Fragment, Listview를 다루겠습니다.
 
 
 ## Fragment
