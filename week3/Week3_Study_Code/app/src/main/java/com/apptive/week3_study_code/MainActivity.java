@@ -1,4 +1,4 @@
-package com.apptive.week3_study_code;
+1package com.apptive.week3_study_code;
 
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         /**
          * Fragment Sample Code
+         *
          *
          * add fragment using fragment transaction
          * */
