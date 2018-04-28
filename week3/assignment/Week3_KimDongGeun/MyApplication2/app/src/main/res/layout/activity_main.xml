@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kimdonggeun.myapplication.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+    <fragment
+    android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:id="@+id/search_bar"
+        android:name="com.example.kimdonggeun.myapplication.Search_Bar_fragment"
+        />
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:id="@+id/menu_bar"
+        android:name="com.example.kimdonggeun.myapplication.Menu_bar_fragement"
+        />
+
+    <fragment
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:name="com.example.kimdonggeun.myapplication.Friends_List_fragement"
+            android:id="@+id/friends_list_view_freg"
+        />
+
+
+
+
+
+
+</LinearLayout>
