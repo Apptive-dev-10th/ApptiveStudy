@@ -13,6 +13,7 @@
         android:textSize="30dp"
         android:textColor="#ca0a0a"
         android:text="타이틀"/>
+
     <TextView
         android:id="@+id/sub_title"
         android:layout_width="match_parent"
