@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.support.v4.app.Fragment;
+import android.widget.ImageButton;
+
 import com.example.kimtaehyeong.myapplication.R;
 
 public class MainActivity extends AppCompatActivity
@@ -19,10 +21,10 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         vp = (ViewPager)findViewById(R.id.vp);
-        Button btn_first = (Button)findViewById(R.id.btn_first);
-        Button btn_second = (Button)findViewById(R.id.btn_second);
-        Button btn_third = (Button)findViewById(R.id.btn_third);
-        Button btn_fourth = (Button)findViewById(R.id.btn_fourth);
+        ImageButton btn_first = (ImageButton)findViewById(R.id.btn_first);
+        ImageButton btn_second = (ImageButton)findViewById(R.id.btn_second);
+        ImageButton btn_third = (ImageButton)findViewById(R.id.btn_third);
+        ImageButton btn_fourth = (ImageButton)findViewById(R.id.btn_fourth);
 
         vp.setAdapter(new pagerAdapter(getSupportFragmentManager()));
         vp.setCurrentItem(0);
@@ -77,4 +79,5 @@ public class MainActivity extends AppCompatActivity
             return 4;
         }
     }
+
 }

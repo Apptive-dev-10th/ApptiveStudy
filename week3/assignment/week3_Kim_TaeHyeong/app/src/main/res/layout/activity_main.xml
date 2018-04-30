@@ -7,59 +7,84 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:background="#9f3102"></LinearLayout>
+        android:background="#9f3102"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="친구 120명"
-            android:textSize="25dp"/>
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="9"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_whitedot"
+            android:background="#00ff0000"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
 
     <LinearLayout
 
         android:id="@+id/ll"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="30dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="#bebebe">
 
-        <Button
+        <ImageButton
             android:id="@+id/btn_first"
             android:layout_width="0dip"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="친구목록" />
+            android:background="#00ff0000"
+            android:src="@drawable/icon_user"/>
 
-        <Button
+        <ImageButton
             android:id="@+id/btn_second"
-            android:layout_width="0dip"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="채팅목록" />
+            android:background="#00ff0000"
+            android:src="@drawable/icon_chat"/>
 
-        <Button
+        <ImageButton
             android:id="@+id/btn_third"
             android:layout_width="0dip"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="PlusPage" />
+            android:background="#00ff0000"
+            android:src="@drawable/icon_menu" />
 
-        <Button
+        <ImageButton
             android:id="@+id/btn_fourth"
             android:layout_width="0dip"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="설정" />
+            android:background="#00ff0000"
+            android:src="@drawable/icon_option" />
     </LinearLayout>
 
     <android.support.v4.view.ViewPager
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="75dp"
         android:id="@+id/vp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"></android.support.v4.view.ViewPager>
+        android:layout_alignParentTop="true"
+        >
+
+    </android.support.v4.view.ViewPager>
 
 </RelativeLayout>
 
