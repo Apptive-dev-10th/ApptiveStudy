@@ -43,12 +43,13 @@ ex) 객제지향이 너무 어려웠어요... 다시한번만 이야기해주실
 ------------------------ | ---------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 [1주차][week1-assginment] | 4/7 ~ 4/13 |  2  |   3  |   1  |   1  |   2  |   2  |   1  |   1  |
 [2주차][week2-assginment] |4/14 ~ 4/20 |  1  |   2  |   2  |   1  |   3  |   1  |   1  |   2  |
-[3주차][week3-assginment] |4/22 ~ 4/27 |     |      |      |      |      |      |      |      |
-4주차                     |            |     |      |      |      |      |      |      |      |
+[3주차][week3-assginment] |4/22 ~ 4/27 |  0  |   0  |   0  |   0  |   0  |   0  |   0  |   0  |
+[4주차][week4-assginment] |4/27 ~ 5/4  |     |      |      |      |      |      |      |      |
 5주차                     |            |     |      |      |      |      |      |      |      |
 6주차                     |            |     |      |      |      |      |      |      |      |
 7주차                     |            |     |      |      |      |      |      |      |      |
 8주차                     |            |     |      |      |      |      |      |      |      |
+
 
 [reference-opentutorials-hellgit]: https://opentutorials.org/course/2708
 [reference-newbie-github]: https://nolboo.kim/blog/2013/10/06/github-for-beginner/
@@ -58,3 +59,4 @@ ex) 객제지향이 너무 어려웠어요... 다시한번만 이야기해주실
 [week1-assginment]: https://github.com/Apptive-dev-10th/ApptiveStudy/tree/master/week1/assignment
 [week2-assginment]: https://github.com/Apptive-dev-10th/ApptiveStudy/tree/master/week2/assignment
 [week3-assginment]: https://github.com/Apptive-dev-10th/ApptiveStudy/tree/master/week3/assignment
+[week4-assginment]: https://github.com/Apptive-dev-10th/ApptiveStudy/blob/master/week4/week4.md
