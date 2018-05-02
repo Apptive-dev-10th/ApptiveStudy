@@ -4,28 +4,17 @@ import android.graphics.drawable.Drawable;
 import android.media.Image;
 
 public class list_item {
-    private Drawable iconDrawable;
-    private  String titleStr;
-    private  String descStr;
+    private Drawable icon;
+    private  String name;
+    private  String statusmesg;
 
-    public void setIcon(Drawable icon)  {
-        iconDrawable=icon;
-    }
-    public void setTitle(String title) {
-        descStr = title;
-    }
-    public void setDesc(String desc) {
-        descStr=desc;
-    }
+    public Drawable getIcon() { return icon;}
+    public void setIcon(Drawable icon) {this.icon=icon;}
 
-    public Drawable getIcon() {
-        return this.iconDrawable;
-    }
+    public String getName() {return name;}
+    public void setName(String name) {this.name=name;}
 
-    public String getTitle() {
-        return this.titleStr;
-    }
-    public String getDescStr() {
-        return this.descStr;
-    }
+    public String getStatusmesg() {return statusmesg=statusmesg;}
+    public void setStatusmesg(String statusmesg) {this.statusmesg=statusmesg;}
+
 }
