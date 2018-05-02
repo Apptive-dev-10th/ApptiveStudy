@@ -14,6 +14,7 @@
     android:orientation="vertical"
     android:weightSum="1"
     >
+
         <fragment
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -51,7 +52,7 @@
         android:layout_width="wrap_content"
         android:clickable="true"
         android:backgroundTint="#FFFFFF"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="70dp"
         android:layout_marginRight="10dp"
         android:layout_gravity="right|bottom"
         android:src="@drawable/fab_btn1"
@@ -64,7 +65,7 @@
         android:layout_width="wrap_content"
         android:clickable="true"
         android:backgroundTint="#FFFFFF"
-        android:layout_marginBottom="110dp"
+        android:layout_marginBottom="130dp"
         android:layout_marginRight="10dp"
         android:src="@drawable/fab_btn2"
         android:layout_gravity="right|bottom"
