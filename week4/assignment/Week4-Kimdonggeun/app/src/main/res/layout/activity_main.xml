@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kimdonggeun.myapplication.MainActivity"
+
+    >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:id="@+id/search_bar"
+            android:name="com.example.kimdonggeun.myapplication.Search_Bar_fragment"
+            />
+
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:id="@+id/menu_bar"
+            android:name="com.example.kimdonggeun.myapplication.Menu_bar_fragement"
+            />
+</LinearLayout>
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/add"
+            android:layout_gravity="right|bottom"
+            />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_btn1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:clickable="true"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/fab_btn1"
+        />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_btn2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:clickable="true"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginBottom="130dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/fab_btn2"
+        android:layout_gravity="right|bottom"
+
+        />
+
+<!--
+    <fragment
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            android:name="com.example.kimdonggeun.myapplication.Friends_List_fragement"
+            android:id="@+id/friends_list_view_freg"
+        />
+
+-->
+
+
+    </FrameLayout>

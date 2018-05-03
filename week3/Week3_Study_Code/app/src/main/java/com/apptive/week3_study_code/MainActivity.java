@@ -1,10 +1,15 @@
-1package com.apptive.week3_study_code;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;1package com.apptive.week3_study_code;
 
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
+
+import com.apptive.week3_study_code.ListViewAdapter;
+import com.apptive.week3_study_code.ListViewItem;
+import com.apptive.week3_study_code.R;
 
 import java.util.ArrayList;
 
