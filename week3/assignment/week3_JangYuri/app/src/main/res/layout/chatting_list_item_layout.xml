@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_chat_list_wrapper"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <ImageView
+        android:id="@+id/chat_list_pPic"
+        android:src="@drawable/basic_pic"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/chat_list_name"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="#242424"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:paddingRight="8dp"
+            android:paddingLeft="2dp"
+            android:paddingBottom="2dp"
+            android:gravity="bottom|left"
+            android:text="room name"/>
+        <TextView
+            android:id="@+id/chat_list_last"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="#888888"
+            android:textSize="14dp"
+            android:paddingRight="8dp"
+            android:paddingTop="2dp"
+            android:gravity="top|left"
+            android:text="last words"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/chat_list_time"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingBottom="2dp"
+            android:gravity="bottom|right"
+            android:textColor="#888888"
+            android:textSize="14dp"
+            android:paddingRight="8dp"
+            android:text="4월 23일" />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+
+</LinearLayout>
