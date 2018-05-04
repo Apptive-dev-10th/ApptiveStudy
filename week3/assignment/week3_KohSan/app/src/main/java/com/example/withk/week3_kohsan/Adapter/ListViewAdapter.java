@@ -49,9 +49,11 @@ public class ListViewAdapter extends BaseAdapter {
 
         ListViewItem listviewitem = items.get(position);
 
+        ImageView image = (ImageView) convertView.findViewById(R.id.profile_image);
         TextView name = (TextView) convertView.findViewById(R.id.name);
         TextView statusmessage = (TextView) convertView.findViewById(R.id.statusmessage);
 
+        image.setImageResource(listviewitem.getImage());
         name.setText(listviewitem.getName());
         statusmessage.setText(listviewitem.getStatusmessage());
 
