@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffa3a3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Amanda!"
+            android:textSize="27dp"
+            android:fontFamily="@font/fonttt"
+            android:textColor="#ffffff"
+            android:paddingLeft="30dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:textStyle="italic"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bow"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="30dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24"
+                android:textSize="19dp"
+                android:textColor="#ffffff"
+                android:paddingLeft="8dp"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_below = "@+id/linear">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_first"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/wedding"
+            android:text="Today's card!"
+            android:textSize="13dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:layout_margin="2dp"
+            android:paddingLeft="5dp"
+            android:fontFamily="@font/fonttt"
+            android:textColor="#ffffff"
+             />
+
+        <Button
+            android:id="@+id/btn_second"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/menu"
+            android:text="Card       list"
+            android:textSize="13dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:layout_margin="2dp"
+            android:paddingLeft="5dp"
+            android:fontFamily="@font/fonttt"
+            android:textColor="#ffffff"
+            />
+
+        <Button
+            android:id="@+id/btn_third"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/bubble"
+            android:text="message"
+            android:textSize="13dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:layout_margin="2dp"
+            android:paddingLeft="5dp"
+            android:fontFamily="@font/fonttt"
+            android:textColor="#ffffff"
+             />
+
+        <Button
+            android:id="@+id/btn_forth"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/boy"
+            android:background="@drawable/button"
+            android:fontFamily="@font/fonttt"
+            android:layout_margin="2dp"
+            android:paddingLeft="5dp"
+            android:text="profile"
+            android:textSize="13dp"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+</LinearLayout>
