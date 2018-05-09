@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="마음에 드는 이성을 선택하시오."
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.95"
+    android:weightSum="1"
+    android:orientation="horizontal"
+    >
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:weightSum="1"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:id="@+id/person1_img"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="사람이름"
+                android:gravity="center"
+                android:id="@+id/person1_name"
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="나이"
+                android:gravity="center"
+                android:id="@+id/person1_age"
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="지역"
+                android:gravity="center"
+                android:id="@+id/person1_location"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="특성1"
+                android:gravity="center"
+                android:id="@+id/person1_character1"
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="특성2"
+                android:gravity="center"
+                android:id="@+id/person1_character2"
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="특성3"
+                android:gravity="center"
+                android:id="@+id/person1_character3"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:id="@+id/person2_img"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="사람이름"
+                android:gravity="center"
+                android:id="@+id/person2_name"
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="나이"
+                android:gravity="center"
+                android:id="@+id/person2_age"
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="지역"
+                android:gravity="center"
+                android:id="@+id/person2_location"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="특성1"
+                android:gravity="center"
+                android:id="@+id/person2_character1"
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="특성2"
+                android:gravity="center"
+                android:id="@+id/person2_character2"
+                />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="특성3"
+                android:gravity="center"
+                android:id="@+id/person2_character3"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
