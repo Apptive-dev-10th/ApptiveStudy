@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#7220ec"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="아무나 만난다"
+            android:layout_margin="10dp"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_marginVertical="20dp"
+            android:layout_weight="9"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="47dp"
+            android:layout_marginVertical="7dp"
+            android:src="@drawable/amanda" />
+
+
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
+
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_first"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:src="@drawable/todaycard" />
+
+        <ImageButton
+            android:id="@+id/btn_second"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:src="@drawable/cardlist" />
+
+        <ImageButton
+            android:id="@+id/btn_third"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:src="@drawable/message" />
+
+        <ImageButton
+            android:id="@+id/btn_fourth"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00ff0000"
+            android:src="@drawable/profile" />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
+
