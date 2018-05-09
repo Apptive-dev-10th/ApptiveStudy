@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 public class FirstFragment extends Fragment
@@ -21,7 +22,7 @@ public class FirstFragment extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        RelativeLayout layout = (RelativeLayout) inflater.inflate(R.layout.fragment_first, container, false);
+        LinearLayout layout = (LinearLayout) inflater.inflate(R.layout.fragment_first, container, false);
         return layout;
     }
 }
