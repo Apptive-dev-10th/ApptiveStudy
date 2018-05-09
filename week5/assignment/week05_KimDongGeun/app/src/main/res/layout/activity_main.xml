@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kimdonggeun.week5_apptive.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:orientation="vertical"
+        >
+
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:id="@+id/up_bar"
+            android:name="com.example.kimdonggeun.week5_apptive.up_bar"
+            />
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:id="@+id/main_freg"
+            android:name="com.example.kimdonggeun.week5_apptive.main_fragment"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+   android:orientation="horizontal"
+    android:weightSum="1"
+    >
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="100dp"
+        android:text="아만다"
+        android:id="@+id/up_bar_name"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:gravity="left"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="100dp"
+        android:text="24"
+        android:layout_marginRight="30dp"
+        android:id="@+id/up_bar_alarm"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:gravity="right"
+        />
+</LinearLayout>
