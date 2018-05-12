@@ -14,7 +14,7 @@
             android:layout_marginRight="30dp"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="5"
+            android:layout_weight="3"
             android:background="#FF5"/>
     </LinearLayout>
 
@@ -25,6 +25,7 @@
         android:textSize="30dp"
         android:textColor="#000000"
         android:textStyle="bold"
-        android:text="프로필"/>
+        android:text="4번째"/>
 
 </RelativeLayout>
+

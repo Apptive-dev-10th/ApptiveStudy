@@ -1,31 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FFFFFF"
+    android:background="#d7d7d7"
     >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="5dp"
-        android:orientation="horizontal"
-        android:weightSum="4">
-        <Button
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="#FF5"/>
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나를 좋아하는 이성"
+            android:textSize="20dp"
+            android:textColor="#6651AE"
+
+            />
 
     </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:textSize="30dp"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        android:text="카드리스트"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:weightSum="2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TableRow>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:background="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/photo_1"
+                    android:text="김민석"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:textAlignment="center"
+                />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:background="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/photo_2"
+                    android:text="최달호"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:textAlignment="center"
+                    />
+                <TextView
+                    android:textStyle="bold"
+                    android:background="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/photo_3"
+                    android:text="강하다"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:textAlignment="center"
+                    />
+
+            </TableRow>
+
+
+        </TableLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#ffffff">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="내가 좋아하는 이성"
+                android:textSize="20dp"
+                android:textColor="#6651AE"
+
+                />
+
+    </LinearLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TableRow>
+
+                <TextView
+                    android:background="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/photo_1"
+                    android:text="김민석"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:textAlignment="center"
+                    />
+
+                <TextView
+                    android:background="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/photo_2"
+                    android:text="한석봉"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:textAlignment="center"
+                    />
+                <TextView
+                    android:background="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/photo_3"
+                    android:text="강하다"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:textAlignment="center"
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+    </LinearLayout>
 
 </RelativeLayout>

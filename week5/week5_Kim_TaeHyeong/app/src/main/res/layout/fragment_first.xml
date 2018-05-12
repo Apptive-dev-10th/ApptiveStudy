@@ -103,16 +103,7 @@
                     <TableRow>
 
                     </TableRow>
-                    <TextView
-                        android:padding="5dp"
-                        android:layout_margin="5dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:textSize="15dp"
-                        android:background="#FFFFFF"
-                        android:textColor="#3b3b3b"
-                        android:text="개새" />
+
                 </TableRow>
                 <TableRow>
 

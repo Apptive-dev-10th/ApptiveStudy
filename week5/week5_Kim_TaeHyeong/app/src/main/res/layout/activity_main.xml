@@ -6,17 +6,17 @@
     >
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:background="#7220ec"
+        android:layout_height="50dp"
+        android:background="#6651AE"
         android:orientation="horizontal"
         android:weightSum="10">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="아무나 만난다"
+            android:text="아만다"
             android:layout_margin="10dp"
-            android:textSize="30dp"
+            android:textSize="20dp"
             android:textColor="#ffffff"
             android:layout_marginVertical="20dp"
             android:layout_weight="9"/>
@@ -32,7 +32,7 @@
 
 
     <android.support.v4.view.ViewPager
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="50dp"
         android:layout_marginBottom="60dp"
         android:id="@+id/vp"
         android:layout_width="match_parent"
