@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_today"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_today_0"
+        android:title="오늘의 카드"/>
+
+    <item
+        android:id="@+id/nav_cardlist"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_cardlist_0"
+        android:title="카드 리스트"/>
+
+    <item
+        android:id="@+id/nav_message"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_message_0"
+        android:title="메시지"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_profile_0"
+        android:title="프로필"/>
+
+
+</menu>
