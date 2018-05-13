@@ -44,8 +44,8 @@ ex) 객제지향이 너무 어려웠어요... 다시한번만 이야기해주실
 [1주차][week1-assginment] | 4/7 ~ 4/13 |  2  |   3  |   1  |   1  |   2  |   2  |   1  |   1  |
 [2주차][week2-assginment] |4/14 ~ 4/20 |  1  |   2  |   2  |   1  |   3  |   1  |   1  |   2  |
 [3주차][week3-assginment] |4/22 ~ 4/27 |  0  |   0  |   0  |   0  |   0  |   0  |   0  |   0  |
-[4주차][week4-assginment] |4/27 ~ 5/4  |   1  |   1   |   1   |   2   |  2  |   3  |  1  |   2  |
-5주차                     |            |     |      |      |      |      |      |      |      |
+[4주차][week4-assginment] |4/27 ~ 5/4  |  1  |   1  |   1  |   2  |   2  |   3  |   1  |   2  |
+[5주차][week5-assginment] |5/5 ~ 5/12  |  0  |   1  |   2  |   1  |   2  |   3  |   3  |   2  |
 6주차                     |            |     |      |      |      |      |      |      |      |
 7주차                     |            |     |      |      |      |      |      |      |      |
 8주차                     |            |     |      |      |      |      |      |      |      |
@@ -60,3 +60,4 @@ ex) 객제지향이 너무 어려웠어요... 다시한번만 이야기해주실
 [week2-assginment]: https://github.com/Apptive-dev-10th/ApptiveStudy/tree/master/week2/assignment
 [week3-assginment]: https://github.com/Apptive-dev-10th/ApptiveStudy/tree/master/week3/assignment
 [week4-assginment]: https://github.com/Apptive-dev-10th/ApptiveStudy/blob/master/week4/week4.md
+[week5-assginment]: https://github.com/Apptive-dev-10th/ApptiveStudy/blob/master/week5/week5.md
